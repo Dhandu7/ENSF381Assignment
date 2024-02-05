@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Ovo&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Ovo",sans-serif;
+}
+
+body{
+    background: #fff;
+    padding:15px;
+}
+
+.toppage{
+    background-color: #fff;
+    margin: 5px;
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+}
+.toppage img{
+    vertical-align: middle;
+}
+
+.navlinks {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+.navlinks a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+/* About Us section styles */
+.about-us {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-us h3 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    margin-bottom: 20px;
+}
+
+/* Shop Now section styles */
+.shop-now {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.shop-now button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.shop-now button:hover {
+    background-color: #0056b3;
+}
+
+.customer-reviews {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.customer-reviews table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.customer-reviews th, .customer-reviews td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.customer-reviews th {
+    background-color: #fff;
+}
+
+footer {
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.bottompage img {
+    vertical-align: middle;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.bottompage {
+    background-color: #ddd;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+.product {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    text-align: left;
+    width: 250px; 
+    display: inline-block;
+    height: 335px; 
+    box-sizing: border-box; /* Include padding and border in the total height */
+}
+
+.product img {
+    max-width: 100%;
+    height: 200px;
+    width: 250px;
+}
+
+.product h4 {
+    text-align: center;
+    margin-top: 10px; /* Set top margin */
+    margin-bottom: 10px; /* Set bottom margin */
+}
+
+.product p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.product button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto; /* Center the button */
+}
+
+.product button:hover {
+    background-color: #0056b3;
+}
