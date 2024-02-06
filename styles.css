@@ -70,6 +70,8 @@ main {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 4px;
+
 }
 
 .shop-now button:hover {
@@ -127,7 +129,7 @@ main {
     width: 250px; 
     display: inline-block;
     height: 335px; 
-    box-sizing: border-box; /* Include padding and border in the total height */
+    box-sizing: border-box; 
 }
 
 .product img {
@@ -138,8 +140,8 @@ main {
 
 .product h4 {
     text-align: center;
-    margin-top: 10px; /* Set top margin */
-    margin-bottom: 10px; /* Set bottom margin */
+    margin-top: 10px; 
+    margin-bottom: 10px; 
 }
 
 .product p {
@@ -154,9 +156,79 @@ main {
     border: none;
     cursor: pointer;
     display: block;
-    margin: 0 auto; /* Center the button */
+    margin: 0 auto;
+    border-radius: 4px;
+
 }
 
 .product button:hover {
     background-color: #0056b3;
+}
+
+
+.loginInputs {
+    text-align: center;
+}
+
+.loginInputs input{
+    width: 100%;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+}
+
+.longButton {
+    background-color: #4CAF50;
+    color: white;
+    width:100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contacts p{
+    text-align: center;
+}
+
+.contacts button{
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+.contacts button:hover{
+    background-color: #f9f9f9;
+}
+
+.contacts button img{
+    height: 50px;
+    width:60px;
+    border: none;
+    background-color: none;
+    cursor: pointer;
 }
