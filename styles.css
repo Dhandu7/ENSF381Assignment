@@ -175,3 +175,62 @@ footer .text{
 .social-media-link:hover {
     color: #007BFF;
 }
+
+.login-form {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 300px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin: 10px;
+}
+
+input {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.login-container button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    opacity: 0.5;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #45A049;
+    opacity: 1.0;
+}
+
+.signup-link {
+    margin: 10px;
+}
+
+.signup-link a {
+    color: #007BFF;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
