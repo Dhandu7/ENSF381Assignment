@@ -1,48 +1,54 @@
-<!-- products.html -->
+<!-- contact.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <!-- Add meta tags, title, and link to styles.css here -->
 <title>Contact-dhandu.</title>
-    <meta name="description" content="Product Listing page for e-commerce site">
+    <meta name="description" content="Contact page for e-commerce site">
     <meta name="author" content="Aaryan Dhand, Kareem Hussein">
     <link rel ="shortcut icon" href ="images/lion_logo.png" type ="image/x-icon">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-<!-- Logo and website name go here -->
-<div class="toppage" style="text-align: center">
-    <!-- <h1><b>dhandu.</b></h1> -->
-    <img width='60 px' height='60 px 'src="images/lion_logo.png">&nbsp;&nbsp;
-    <img width ='200 px' height='65 px' src="images/dhandu_logo.png">
-    <hr>
-</div>
-</header>
+    <header>
+        <!-- Logo and company name go here -->
+        <div class="header-content">
+            <div class="logo">
+                <img width='60' height='60' src="images/lion_logo.png">
+            </div>
+            <div class="company-name">
+                <img width ='200 px' height='65 px' src="images/dhandu_logo.png">
+            </div>
+        </div>
+    </header>
 <div class="navlinks" style="text-align: center">
 <!-- Navigation links go here -->
-<a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="products.html">Our Products</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="contact.html">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="login.html">Login</a>
+    <a href="index.html">Home</a>
+    <a href="products.html">Our Products</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="login.html">Login</a>
 </div>
 <main>
-    <div class="contacts">
-        <p>
-            <h3>Contact Us:</h3>
-            <br>
-            <p>
-                If you have any concerns or inqueries, please contact us through one of the following mediums:
-            </p>
-            <br>
-            <b>Email Us:</b> aaryandhandbusiness@gmail.com<br>
-            <b>Phone Us:</b> (403)-403-4033<br>
-            <button onclick="window.location.href='http://www.instagram.com/dhanduclothing'"><img src="images/instagram.png"></button>
-            <button onclick="window.location.href='http://www.tiktok.com/@aaryantho'"><img src="images/tiktok.png"></button>
-        </p>
-
-    </div>
+    <section class="contact-info">
+        <div class="contact-container">
+            <div class="contact-method">
+                <h1>Contact Us:</h1>
+                <p>If you have any concerns or inquiries, please contact us through one of the following mediums:</p>
+            </div>
+            <div class="contact-method">
+                <h1><b>Email Us:</b></h1>
+                aaryandhandbusiness@gmail.com<br>
+                <h1><b>Phone Us:</b></h1> (403)-403-4033<br>
+            </div>
+            <div class="contact-method social-media">
+                <h1>Socials:</h1>
+                <button class="social-media-link" onclick="window.location.href='http://www.instagram.com/dhanduclothing'"><img src="images/instagram.png"></button>
+                <button class="social-media-link" onclick="window.location.href='http://www.tiktok.com/@aaryantho'"><img src="images/tiktok.png"></button>
+            </div>
+        </div>
+    </section>
 </main>
+
 <footer>
 <!-- Copyright notice goes here -->
 <div class="bottompage" style="text-align:center">

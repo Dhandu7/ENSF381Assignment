@@ -1,40 +1,42 @@
 <!--Aaryan Dhand UCID: 30171280
     Kareem Hussein UCID: 30187400-->
 
-<!-- products.html -->
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <!-- Add meta tags, title, and link to styles.css here -->
 <title>Home-dhandu.</title>
-    <meta name="description" content="Product Listing page for e-commerce site">
+    <meta name="description" content="Home page for e-commerce site">
     <meta name="author" content="Aaryan Dhand, Kareem Hussein">
     <link rel ="shortcut icon" href ="images/lion_logo.png" type ="image/x-icon">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-<!-- Logo and website name go here -->
-<div class="toppage" style="text-align: center">
-    <!-- <h1><b>dhandu.</b></h1> -->
-    <img width='60 px' height='60 px 'src="images/lion_logo.png">&nbsp;&nbsp;
-    <img width ='200 px' height='65 px' src="images/dhandu_logo.png">
-    <hr>
-</div>
-</header>
+    <header>
+        <!-- Logo and company name go here -->
+        <div class="header-content">
+            <div class="logo">
+                <img width='60' height='60' src="images/lion_logo.png">
+            </div>
+            <div class="company-name">
+                <img width ='200 px' height='65 px' src="images/dhandu_logo.png">
+            </div>
+        </div>
+    </header>
 <div class="navlinks" style="text-align: center">
 <!-- Navigation links go here -->
-    <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="products.html">Our Products</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a href="contact.html">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="index.html">Home</a>
+    <a href="products.html">Our Products</a>
+    <a href="contact.html">Contact Us</a>
     <a href="login.html">Login</a>
 </div>
 <main>
 <!-- About Us Section -->
 <section class="about-us">
 <!-- About Us contents go here -->
-<div style="text-align: center;">
-    <h3><u>About Us</u></h3>
+<div">
+    <h1>About Us</h1>
     <p>
         Affordability meets fashion.<br>Using the highest quality materials with a fit that you'll love.<br>This brand was born from a vision, where the clothes that you want actually fit the way you want them to without breaking the bank.
     </p>
@@ -42,17 +44,17 @@
 </section>
 <section class="shop-now">
 <!-- Shop Now Button (as a link to the Products page) -->
-<div style="text-align: center;">
-    <button onclick="window.location.href='products.html';">SHOP NOW</button>
-</div>
+    <div class="button-container">
+        <button class="shop-now" onclick="window.location.href='products.html';">SHOP NOW</button>
+    </div>
 </section>
 <!-- Customer Reviews/Testimonials Section -->
 <section class="customer-reviews">
 <!-- Add reviews as needed -->
 <table style="width: 50%; margin: auto;" border="0.5px">
     <tr>
-        <th colspan="3" style="background-color: #f2f2f2; text-align: center;">
-            <h3>Customer Reviews</h3>
+        <th colspan="3";>
+            <h1>Customer Reviews</h1>
         </th>
     </tr>
     <tr>
@@ -76,10 +78,10 @@
 </main>
 <footer>
 <!-- Copyright notice goes here -->
-<div class="bottompage" style="text-align:center">
+<div>
     <!-- <h1><b>dhandu.</b></h1> -->
     <img width ='100 px' height='32 px' src="images/dhandu_logo.png">
-    <div>
+    <div class="text">
         ©2024 - dhandu.
     </div>
 </div>
