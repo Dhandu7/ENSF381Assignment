@@ -236,3 +236,16 @@ input {
 .signup-link a:hover {
     text-decoration: underline;
 }
+
+.cart-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.cart-item-price{
+    color: #007BFF;
+}
