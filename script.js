@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <span class="cart-item-name"><h3>${productName}</h3></span> -
                     <span class="cart-item-price"><h3>${productPrice}</h3></span> -
                     <span class="cart-item-quantity">${productQuantity}</span>
-                    <button class="remove-from-cart add-to-cart">Remove</button>
+                    <button class="remove-from-cart">Remove</button>
                 `;
                 cartDisplay.appendChild(cartItem);
             }
