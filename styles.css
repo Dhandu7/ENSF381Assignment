@@ -41,6 +41,8 @@ header {
     padding: 20px;
     margin: 20px;
     text-align: center;
+    border-radius: 10px;
+
 }
 
 .shop-now {
@@ -65,6 +67,8 @@ header {
     background-color: #ddd;
     padding:20px;
     margin:20px;
+    border-radius: 10px;
+
 }
 
 footer{
@@ -87,6 +91,8 @@ footer .text{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-radius: 10px;
+
 }
 
 .product-container {
@@ -192,7 +198,7 @@ footer .text{
     align-items: center;
 }
 
-form {
+.login-container form {
     width: 300px;
     text-align: left;
 }
@@ -264,3 +270,68 @@ input {
 .remove-from-cart:hover {
     background-color: #ff0000;
 }
+
+.message-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 20px;
+}
+
+.signup-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+.signup-form {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form-field {
+    display: block;
+    margin: 10px;
+}
+.form-field input {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 250px;
+    box-sizing: border-box;
+}
+.signup-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.signup-button:hover {
+    background-color: #45A049;
+    opacity: 1.0;
+}
+.signup-message-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #f9f9f9;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 20px;
+}
+.message {
+    margin: 0;
+}
+

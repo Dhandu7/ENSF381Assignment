@@ -1,10 +1,10 @@
-<!-- login.html -->
+<!-- signup.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <!-- Add meta tags, title, and link to styles.css here -->
 <title>Login-dhandu.</title>
-    <meta name="description" content="Login page for e-commerce site">
+    <meta name="description" content="Signup page for e-commerce site">
     <meta name="author" content="Aaryan Dhand, Kareem Hussein">
     <link rel ="shortcut icon" href ="images/lion_logo.png" type ="image/x-icon">
     <link rel="stylesheet" href="styles.css">
@@ -29,23 +29,26 @@
     <a href="login.html">Login</a>
 </div>
 <main>
-    <section class="login-form">
-        <div class="login-container">
-            <form id="login-form">
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" placeholder="Enter your username" required>
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" placeholder="Enter your password" required>
-                <button type="submit">Login</button>
-            </form>
+    <div class="signup-form-container">
+        <form class="signup-form" id="signup-form">
+            <label class="form-field" for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
             
-            <div class="signup-link">
-                <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
-            </div>
-        </div>
-    </section>
-    <div id="message-box" class="message-box-container" style="display: none;"> <!-- Message box container -->
-        <p id="message" class="message"></p> <!-- Message display -->
+            <label class="form-field" for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            
+            <label class="form-field" for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
+            
+            <label class="form-field" for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            
+            <button type="submit" class="signup-button">Signup</button>
+        </form>
+    </div>
+
+    <div id="message-box" class="signup-message-box-container" style="display: none;">
+        <p id="message" class="message"></p>
     </div>
 </main>
 
